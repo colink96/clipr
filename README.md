@@ -3,13 +3,13 @@ ABOUT CLIPR:
 Scrapes Twitch clips from any streamer, edits them into a video, and uploads the video to Youtube.
 
 SETUP:
-  API Authorization
+  - API Authorization
     - Register your app for Twitch via https://dev.twitch.tv/docs/api/ to get proper client credentials and input them into clipr_secrets.json
     - Register your app for Youtube via https://developers.google.com/youtube/v3/guides/uploading_a_video
       - Generate a client_secrets.json file via your Google Developers Console and add it to the same directory as upload_video.py
       - Run upload_video.py on your command line to generate valid oauth2.json file
       - The Google account you use will be the Youtube channel the video will be uploaded on
-  Packages
+  - Packages
     - Clipr uses the following packages, install them via pip on your command line:
       - requests, json, python-twitch-client, moviepy, ffmpeg, urllib
       
