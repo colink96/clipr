@@ -23,5 +23,5 @@ USING CLIPR:
     - --keywords: specify relevant tags for your video
     - --category: specify relevant category (codes can be found here: https://gist.github.com/dgp/1b24bf2961521bd75d6c)
     - --privacyStatus: public, private, or unlisted
-  - Run `python clipr_public.py` on your command line to run the full script, I use Task Scheduler on my local laptop to regularly upload these videos.
+  - Run `python clipr_public.py` on your command line to run the full script
  
